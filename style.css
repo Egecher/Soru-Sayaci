@@ -12,17 +12,23 @@
 }
 
 body {
-    background-color: #005f73;
+    background-color: #1B3C53;
 }
 
 h1 {
     display: inline-block;
-    color: #005f73;
-    background: #d2cccc;
+    color: #1B3C53;
+    background: #456882;
     padding: 5px 20px;
     border-radius: 10px 20px 30px 20px;
     font-size: 2em;
     margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+h1:hover {
+    background: rgb(62, 114, 152);
+    cursor: pointer;
 }
 
 #sonuc {
@@ -30,18 +36,26 @@ h1 {
     height: 120px;
     border: none;
     font-size:3em;
-    background: #0a9396;
-    color:#e9d8a6;
+    background: #D2C1B6;
+    color:#1B3C53;
     border-radius: 100px;
     margin-bottom: 15px;
 }
 
 button {
-    background-color: #ee9b00;
-    color: #3d3d3d;
+    background-color: #456882;
+    color: #1B3C53;
+    border: none;
+    padding: 10px;
     width: 100px;
     font-size: 16px;
-    border-radius: 7px;
+    border-radius: 100px;
+}
+
+button:hover {
+    background-color: rgb(62, 114, 152);
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .keys {
