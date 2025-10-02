@@ -29,6 +29,7 @@ h1 {
 h1:hover {
     background: rgb(62, 114, 152);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 #sonuc {
@@ -50,6 +51,7 @@ button {
     width: 100px;
     font-size: 16px;
     border-radius: 100px;
+    transition: 0.3s;
 }
 
 button:hover {
