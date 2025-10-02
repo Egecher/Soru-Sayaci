@@ -1,17 +1,10 @@
-function arttir() {
-    var sonuc = document.getElementById("sonuc");
-    var currentValue = Number(sonuc.value);
+var result = document.getElementById('result');
+var currentValue = () => Number(result.value);
 
-    if (currentValue >= 0) {
-        sonuc.value = currentValue + 1;
-    }
+function increase() {
+    result.value = currentValue() + 1;
 }
 
-function azalt() {
-    var sonuc = document.getElementById("sonuc");
-    var currentValue = Number(sonuc.value);
-
-    if (currentValue > 0) {
-        sonuc.value = currentValue - 1;
-    }
+function reduce() {
+    if (currentValue() > 0) result.value = currentValue() - 1;
 }
