@@ -33,7 +33,7 @@ Sayaç **negatif değerlere izin vermez.**
 
 - **HTML5**
 - **CSS3**
-- **JavaScript
+- **JavaScript**
 - **Font Awesome** (ikonlar için)
 
 ---
