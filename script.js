@@ -8,3 +8,8 @@ function increase() {
 function reduce() {
     if (currentValue() > 0) result.value = currentValue() - 1;
 }
+
+function headerRename(element) {
+    const newHeader = prompt("Sayaç başlığını düzenleyin:");
+    element.textContent = newHeader;
+}
