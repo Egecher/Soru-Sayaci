@@ -11,5 +11,6 @@ function reduce() {
 
 function headerRename(element) {
     const newHeader = prompt("Sayaç başlığını düzenleyin:");
+    if (newHeader == null || newHeader.trim() === "") return;
     element.textContent = newHeader;
 }
